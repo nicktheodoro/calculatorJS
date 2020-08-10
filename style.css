@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background: #3d3d3d;
+    font: normal 15pt Arial;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+ 
+section {
+    display: block;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    height: 390px;
+    margin: auto;
+    justify-content: center;
+}
+
+#accumulator {
+    color: #c5c5c5;
+    width: 290px;
+    font-size: 15px;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+#total {
+    color: #242529;
+    width: 290px;
+    font-size: 40px;
+    text-align: right;
+    padding-right: 15px;
+}
+
+#result {
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 295px;
+    height: 70px;
+
+}
+
+button {
+    width: 70px;
+    height: 45px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
